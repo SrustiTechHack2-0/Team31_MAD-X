@@ -1,0 +1,11 @@
+models:
+  mask_rcnn_weights : weights\MaskRCNN_2class
+  yolov3_weights : weights\yolov3.weights
+  yolov3_cfg : config\yolov3.cfg
+  yolov3_class : config\coco.names
+
+email:
+  sender_email_address: # SENDER EMAIL HERE
+  email_password : # GMAIL APP PASSWORD HERE - Learn more here: https://support.google.com/accounts/answer/185833?hl=en
+  receiver_email_address : # RECIEVER EMAIL HERE
+  intruder_image_folder : Intruders
